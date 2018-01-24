@@ -1,5 +1,5 @@
-# Vanilla-ES6-boilerplate
-Standard ES6 Boilerplate configured with babel, webpack and eslint.
+# ES6 MVC
+MVC Pattern ES6 configured with babel, webpack and eslint.
 
 ## Usage
 
