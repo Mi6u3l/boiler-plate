@@ -9,7 +9,10 @@
     "watch": "webpack -w -d",
     "build": "webpack -p",
     "lint": "node_modules/.bin/esw webpack.config.* src --color",
-    "lint:watch": "npm run lint -- --watch"
+    "lint:watch": "npm run lint -- --watch",
+    "test-view":  "mocha --compilers js:babel-core/register src/test/view-tests.js",
+    "test-controller":  "mocha --compilers js:babel-core/register src/test/controller-tests.js",
+    "test-model":  "mocha --compilers js:babel-core/register src/test/model-tests.js"
   },
   "keywords": [
     "es6"
@@ -25,6 +28,9 @@
     "json-server": "^0.12.0",
     "npm-run-all": "^4.0.2",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.2",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0"
   }
 }
