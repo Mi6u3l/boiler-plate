@@ -5,6 +5,10 @@ module.exports = {
         publicPath: '/dist/',
         filename: 'bundle.js'
     },
+    devServer: {
+		inline: true,
+		port: 8080
+	},
     module: {
         rules: [{
             test: /\.js$/,
