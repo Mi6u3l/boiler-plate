@@ -1,5 +1,5 @@
-# ES6 MVC
-MVC Pattern ES6 configured with babel and webpack
+# ES6 Vanilla
+ES6 configured with babel and webpack
 
 ## Usage
 
